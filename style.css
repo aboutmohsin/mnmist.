@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background: hsl(0, 0%, 93%);;
+}
+.navBar{
+    display: flex;
+    padding: 24px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+/* .logo {
+    margin:2rem 15rem 0 2rem ;
+} */
+.logo img{
+    height: 36px;
+    width: 215px;
+}
+.navMenu ul{
+    display: flex;
+    list-style: none;
+    padding: 15px 5px;
+   
+}
+.navMenu ul li{
+    padding: 2px 45px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+.hamBurger img{
+    /* float: right; */
+    width: 40px;
+    height: 34px;
+}
+
+/* body Section */
+.image-section{
+    /* margin-top: 1rem; */
+    background-image:url("../mnmisst/images/backgroud.jpg");
+    background-size: cover;
+    background-position: center center;
+    min-height: 682px;
+
+    /* position: absolute; */
+    /* min-height: ; */
+    /* margin-top: -10rem; */
+}
+.info-container{
+    /* margin-top: 10rem; */
+}
+.info-1{
+    /* float: left; */
+    height: 2rem;
+    width: 15rem;
+    margin: rem;
+    margin-left: 10rem;
+    margin-top: -34rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.info-1 h1{
+    font-size: 1rem;
+ }
+
+.info-2{
+    
+    float: right;
+    margin-right: 11rem;
+    margin-top: 4rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 7rem;
+    opacity: 85%;
+}
+/* footer Section */
+ .footerSection{
+    margin-top: 28rem;
+    min-width: 4rem;
+}
+
+.social-links img{
+   
+    height: 27px;
+  
+    margin-left:1rem;
+}
+.designer{
+    /* margin-bottom: 3rem; */
+    margin-right: 4rem;
+    float: right;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+@media (max-width:1350px) {
+    body{
+        max-width: 1150px;
+    }
+    .info-1{
+     
+        margin-left: 3rem;
+    }
+    .info-2{
+
+        margin-right: 6.8rem;
+        font-size: 6.5rem;
+    }
+    
+}
+@media (max-width:1149px){
+    body{
+        min-width: 950px;
+    }
+    .info-2 {
+        margin-right: 0.8rem;
+       
+    }
+    .info-1 {
+        margin-left: 10px;
+        font-size: 10px;
+        /* width: 10px; */
+    }
+    
+
+.navBar {
+    
+    padding: 6px 5px;
+}
+.navMenu ul li {
+    padding: 8px 22px;
+}
+}
